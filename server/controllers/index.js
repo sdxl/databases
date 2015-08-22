@@ -5,13 +5,25 @@ var bluebird = require('bluebird');
 
 module.exports = {
   messages: {
-    get: function (req, res) {}, // a function which handles a get request for all messages
-    post: function (req, res) {} // a function which handles posting a message to the database
+    get: function (req, res) {
+
+      //if get
+      //do work
+
+    }, // a function which handles a get request for all messages
+    post: function (req, res) {
+
+      //if post
+      //do work
+
+    } // a function which handles posting a message to the database
   },
 
   users: {
     // Ditto as above
-    get: function (req, res) {},
+    get: function (req, res) {
+      //maybe will query user table in db
+    },
     post: function (req, res) {}
   }
 };
